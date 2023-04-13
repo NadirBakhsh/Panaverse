@@ -16,7 +16,7 @@ export const textVariant = (delay: number) => {
     };
   };
   
-  export const fadeIn = (direction: string, type: string, delay: number, duration: string) => {
+  export const fadeIn = (direction: string, type: string, delay: number, duration: number) => {
     return {
       hidden: {
         x: direction === "left" ? 100 : direction === "right" ? -100 : 0,
@@ -37,7 +37,7 @@ export const textVariant = (delay: number) => {
     };
   };
   
-  export const zoomIn = (delay: number, duration: string) => {
+  export const zoomIn = (delay: number, duration: number) => {
     return {
       hidden: {
         scale: 0,
@@ -56,7 +56,7 @@ export const textVariant = (delay: number) => {
     };
   };
   
-  export const slideIn = (direction: string, type: string, delay: number, duration: string) => {
+  export const slideIn = (direction: string, type: string, delay: number, duration: number) => {
     return {
       hidden: {
         x: direction === "left" ? "-100%" : direction === "right" ? "100%" : 0,
