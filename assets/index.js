@@ -25,6 +25,12 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import tsIcon from "./company/ts.png";
+import webIcon from "./company/webIcon.png";
+import blockIcon from "./company/block.png";
+import alIcon from "./company/alIcon.png";
+import cloudIcon from "./company/cloudIcon.png";
+import iotIcon from "./company/iotIcon.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
@@ -57,6 +63,12 @@ export {
   meta,
   shopify,
   starbucks,
+  tsIcon,
+  webIcon,
+  blockIcon,
+  alIcon,
+  cloudIcon,
+  iotIcon,
   tesla,
   carrent,
   jobit,

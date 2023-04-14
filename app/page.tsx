@@ -1,4 +1,4 @@
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Works, StarsCanvas, Tech } from '@/components'
+import { About, Contact, Courses, Feedbacks, Hero, Navbar, Works, StarsCanvas, Tech } from '@/components'
 import Image from 'next/image'
 import { heroBg } from '@/assets'
 
@@ -16,7 +16,7 @@ export default function Home() {
 				<Hero />
 			</div>
 			<About />
-			<Experience />
+			<Courses />
 			<Tech />
 			<Works />
 			<Feedbacks />
