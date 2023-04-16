@@ -77,13 +77,6 @@ const Courses = () => {
 				expanding software exports.
 			</motion.p>
       </div>
-
-      {/* <div className='mt-20'>
-      <motion.div variants={textVariant(.1)}>
-				<p className='sectionSubText'>Resources</p>
-				<h2 className='sectionHeadText'>Quarter I </h2>
-			</motion.div>
-      </div> */}
 		</>
 	)
 }

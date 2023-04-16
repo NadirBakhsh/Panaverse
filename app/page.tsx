@@ -1,4 +1,4 @@
-import { About, Contact, Courses, Feedbacks, Hero, Navbar, Works, StarsCanvas, Tech } from '@/components'
+import { About, Contact, Courses, Hero, Navbar, Team, StarsCanvas, Tech } from '@/components'
 import Image from 'next/image'
 import { heroBg } from '@/assets'
 
@@ -18,8 +18,7 @@ export default function Home() {
 			<About />
 			<Courses />
 			<Tech />
-			<Works />
-			<Feedbacks />
+			<Team />	
 			<div className='relative z-0'>
 				<Contact />
 				<StarsCanvas />

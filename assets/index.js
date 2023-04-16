@@ -37,7 +37,14 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import ZiaKhan from './team/zia_khan.png'
+import daniyal from './team/daniyal.png'
+import hira from './team/hira.png'
+
 export {
+  daniyal,
+  ZiaKhan,
+  hira,
   logo,
   heroBg,
   backend,

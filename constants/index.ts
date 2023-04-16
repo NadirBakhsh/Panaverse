@@ -29,6 +29,9 @@ import {
   alIcon,
   cloudIcon,
   iotIcon,
+  ZiaKhan,
+  daniyal,
+  hira,
 } from '../assets'
 
 export const navLinks = [
@@ -236,67 +239,74 @@ const testimonials = [
 
 const projects = [
 	{
-		name: 'Car Rent',
+		name: 'Zia Khan',
 		description:
-			'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+			'Web 3, DeFi, Cloud and Metaverse Architect | Tokenomist and Metanomist | CEO Panacloud | Volunteer COO Presidential Initiative for AI and Computing',
 		tags: [
 			{
-				name: 'react',
+				name: 'aws',
 				color: 'blue-text-gradient',
 			},
 			{
-				name: 'mongodb',
+				name: 'def',
 				color: 'green-text-gradient',
 			},
 			{
-				name: 'tailwind',
+				name: 'ethereum',
 				color: 'pink-text-gradient',
 			},
+			{
+				name: 'serverless',
+				color: 'green-text-gradient',
+			},
 		],
-		image: carrent,
-		source_code_link: 'https://github.com/',
+		image: ZiaKhan,
+		source_code_link: 'https://github.com/ziaukhan',
 	},
 	{
-		name: 'Job IT',
-		description:
-			'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+		name: 'Daniyal Nagori',
+		description: 'Full-stack developer and DevOps Architect with certification in most cutting edge technologies of development and deployment of tools, apps and microservices',
 		tags: [
 			{
-				name: 'react',
+				name: 'AWS',
 				color: 'blue-text-gradient',
 			},
 			{
-				name: 'restapi',
+				name: 'MERN',
 				color: 'green-text-gradient',
 			},
 			{
-				name: 'scss',
+				name: 'JAMstack',
 				color: 'pink-text-gradient',
 			},
+			{
+				name: 'CI/CD',
+				color: 'green-text-gradient',
+			},
 		],
-		image: jobit,
-		source_code_link: 'https://github.com/',
+		image: daniyal,
+		source_code_link: 'https://github.com/DaniyalNagori',
 	},
 	{
-		name: 'Trip Guide',
+		name: 'Hira Shoaib',
 		description:
-			'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+			`dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500`,
 		tags: [
 			{
 				name: 'nextjs',
 				color: 'blue-text-gradient',
 			},
 			{
-				name: 'supabase',
+				name: 'HTML',
 				color: 'green-text-gradient',
 			},
 			{
-				name: 'css',
+				name: 'CSS',
 				color: 'pink-text-gradient',
 			},
 		],
-		image: tripguide,
-		source_code_link: 'https://github.com/',
+		image: hira,
+		source_code_link: 'https://github.com/hirashoaib',
 	},
 ]
 
